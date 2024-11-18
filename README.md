@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0dd4e5bd-f328-4d6f-99a8-a0de49524947)![image](https://github.com/user-attachments/assets/4ab59678-acfd-4f78-81cd-55820f52a08b)![image](https://github.com/user-attachments/assets/9b6e1093-7f94-45b1-857f-21ae6a2e553f)![image](https://github.com/user-attachments/assets/e64b91cf-8564-4873-84cb-c1b44f58ff5b)# File Sharing System
+ 
 
 ## Project Description
 This is a secure file-sharing system built with Node.js and MongoDB. The system supports two types of users:
@@ -85,6 +85,9 @@ Copy code
 Response: JWT token for authenticated requests.
 Email Verification
 
+![image](https://github.com/user-attachments/assets/8afd0e86-f39a-4cba-a908-218e33d597ab)
+
+
 Endpoint: /auth/verify-email/:verification_code
 Method: GET
 File Routes
@@ -101,6 +104,9 @@ Copy code
 Request Body: Multipart form-data with a file key.
 
 
+![image](https://github.com/user-attachments/assets/ffcf8735-8d10-4bdd-b814-93ae434d030d)
+
+
 List Files
 
 Endpoint: /files/list-files
@@ -111,6 +117,8 @@ Copy code
 {
   "Authorization": "Bearer <JWT Token>"
 }
+
+![image](https://github.com/user-attachments/assets/59e36e5d-fab6-4afb-8e9c-2ba9cc57c78c)
 
 
 Download File
@@ -123,3 +131,6 @@ Copy code
 {
   "Authorization": "Bearer <JWT Token>"
 }
+
+![image](https://github.com/user-attachments/assets/b94d2be2-ab5e-4d62-b2cd-91b63a511906)
+
